@@ -1,10 +1,8 @@
-# **StockVis: Dynamic Market Prediction and Analysis for AAPL, S&P 500, and Beyond**
-
-**Explore the Future of Stock Market Analysis with Data Mining and Machine Learning.**
+# **Welcome to TICKER, the Dynamic Market Prediction Tool **
 
 ## 📈 **Overview**
 
-<!-- StockVis is a cutting-edge project designed to predict and analyze stock market trends, starting with AAPL and expanding to major indices like the S&P 500. Combining traditional data analysis, feature engineering, and machine learning, StockVis empowers traders, analysts, and enthusiasts to uncover actionable insights. -->
+<!-- Ticker is a cutting-edge project designed to predict and analyze stock market trends, starting with AAPL and expanding to major indices like the S&P 500. Combining traditional data analysis, feature engineering, and machine learning, Ticker empowers traders, analysts, and enthusiasts to uncover actionable insights. -->
 
 ## 🔑 **Key Features**
 
@@ -21,7 +19,7 @@
 - **Programming Language**: Python
 - **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, TensorFlow/PyTorch
 - **Data Sources**: Yahoo Finance API, News APIs for sentiment analysis
-<!-- - **Dashboard**: Built with Plotly Dash for interactive visualization -->
+  **Dashboard**: Built with Plotly and Streamlit
 
 ## 📊 **Current Progress**
 
@@ -34,22 +32,27 @@
 ## 🛠️ **How to Run**
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/yourusername/StockVis.git
+   git clone https://github.com/brand-ing/ticker.git
+
    ```
+
+   <!--
+
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 3. Run the analysis:
    ```bash
-   python analysis.py
+   python analysis.py -->
    ```
 
 ## 🌟 **Why This Project?**
 
 <!--
-This project bridges the gap between raw financial data and actionable insights. Whether you're a student exploring data science, a trader looking for an edge, or a developer seeking inspiration, StockVis offers a robust foundation for stock market analysis. -->
+This project bridges the gap between raw financial data and actionable insights. Whether you're a student exploring data science, a trader looking for an edge, or a developer seeking inspiration, Ticker offers a robust foundation for stock market analysis. -->
 
 ## 📬 **Contributing**
 
