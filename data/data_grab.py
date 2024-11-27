@@ -1,38 +1,4 @@
 
-# # Display different pages based on selection
-# if page == "Regression Analysis":
-#     st.header("Stock Price Regression Analysis")
-#     st.write("Analyze stock price trends using linear regression")
-    
-#     # Get data using the helper function
-#     sector, stock_data, tickers, start_date, end_date = get_sector_data()
-    
-#     if not stock_data.empty:
-#         # Stock selector
-#         selected_stock = st.selectbox("Select a stock for regression analysis:", tickers)
-        
-#         # Prepare data for regression
-#         df = stock_data['Close'][selected_stock].reset_index()
-#         df['Days'] = range(len(df))
-#         X = df[['Days']]
-#         y = df['Close']
-        
-#         # Fit regression model
-#         model = LinearRegression()
-#         model.fit(X, y)
-        
-#         # Make predictions
-#         df['Predicted'] = model.predict(X)
-        
-#         # Create plot
-#         fig = px.line(df, x='Date', y=['Close', 'Predicted'], 
-#                      title=f'Regression Analysis for {selected_stock}')
-#         st.plotly_chart(fig)
-        
-#         # Show regression metrics
-#         st.write(f"Slope: {model.coef_[0]:.2f}")
-#         st.write(f"R² Score: {model.score(X, y):.4f}")
-
 # elif page == "Sector-SP500 Correlation":
 #     st.header("Sector Correlation with S&P 500")
 #     st.write("Analyze how different sectors correlate with the S&P 500 index")

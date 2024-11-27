@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 from lib.home import home_page
 from lib.regression_page import regression_page
-from lib.render_sector_correlation import render_sector_correlation
+from lib.sector_analysis_page import sector_analysis_page
 from lib.render_prediction import render_prediction
 
 # Set page config
@@ -23,7 +23,7 @@ st.title("TICKER: The Dynamic Market Prediction Tool")
 PAGES = {
     "Home": home_page,
     "Regression Analysis": regression_page,
-    "Sector-SP500 Correlation": render_sector_correlation,
+    "Sector-SP500 Correlation": sector_analysis_page,
     "Price Prediction": render_prediction,
 }
 
